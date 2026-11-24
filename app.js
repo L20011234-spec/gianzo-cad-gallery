@@ -1,0 +1,25 @@
+const projects={
+ residence:{title:'B1 北户型 · 居住动线',heading:'把家具摆放，变成顺畅的日常。',description:'围绕玄关、餐区、客厅与卧室，梳理原有家具关系。用平面图核对转身、进出与柜前使用空间。',facts:[['图纸内容','家具布置 / 动线优化'],['出图规格','A3横向 · 1:50'],['源文件','毫米单位 DXF']],points:['门口与家具之间保留连续通行路径。','725 / 740 / 1170 等原图尺寸可放大核对。','保留原有家具，调整局部位置与使用关系。'],scope:'方案评审。门扇净宽、管点与收口待现场复尺；公卫备选隔断未确认。',caption:'A3横向 · 平面 1:50 · 尺寸单位 mm',renders:[['hero.jpg','餐区与玄关'],['detail.jpg','主卧与衣柜']]},
+ inn:{title:'窗前茶吧 · 民宿客房',heading:'窗边一席，给小客房留出从容。',description:'沿用客房基本布局与一体式床靠，茶桌靠电视墙、椭圆凳朝入户方向。以平面和立面同时表达尺寸与家具关系。',facts:[['图纸内容','平面布置 / 茶吧立面'],['出图规格','A3 · 平面1:25 / 立面1:10'],['源文件','毫米单位 DXF']],points:['茶吧采用最终确认的调向版本。','茶桌设计尺寸 620 × 370 × 705 mm。','保留原天花，集中改善床头与窗边区域。'],scope:'参考适配方案，非品牌授权或竣工案例。现场净尺寸、门向、窗帘收拢与桌下收凳条件待复尺。',caption:'A3横向 · 平面1:25 / 立面1:10 · 尺寸单位 mm',renders:[['hero.jpg','客房整体'],['detail.jpg','茶吧与朝向']]},
+ garden:{title:'木屋 · SPA · 绿篱庭院',heading:'用一条平步，连接庭院里的停留。',description:'沿原场地布局组织绿篱、木质花池、草坪与石板路。远端木屋与侧棚组合安置SPA，主屋遮阳棚保持原位。',facts:[['图纸内容','场地总平 / 花园局部'],['出图规格','A3 · 总平1:150 / 局部1:60'],['场地原图','11900 × 30590 mm']],points:['六片同高石板，衔接远端木屋与SPA棚。','保留原侧通道 1–24 汀步。','绿篱形成边界，木质花池延续庭院材质。'],scope:'新增房棚与SPA尺寸暂定。基础承载、设备检修、排水与电源须现场和厂家核定；图中不含结构施工结论。',caption:'A3横向 · 总平1:150 / 局部1:60 · 尺寸单位 mm',renders:[['hero.jpg','花园整体']]}
+};
+const $=id=>document.getElementById(id);
+let current='residence',mode='sheet',renderIndex=0,zoom=1,panX=0,panY=0,drag=null;
+const img=$('drawing'),stage=$('stage');
+function transform(){img.style.transform=`translate(${panX}px,${panY}px) scale(${zoom})`;$('zoom-label').textContent=Math.round(zoom*100)+'%';stage.classList.toggle('zoomed',zoom>1);}
+function reset(){zoom=1;panX=0;panY=0;transform();}
+function changeZoom(n){zoom=Math.max(1,Math.min(6,zoom+n));if(zoom===1){panX=0;panY=0;}transform();}
+function loadView(){const p=projects[current];reset();$('load-error').hidden=true;img.style.visibility='visible';img.src=`assets/${current}/${mode==='sheet'?'sheet.svg':p.renders[renderIndex][0]}`;img.alt=mode==='sheet'?p.title+' CAD图纸':p.title+' '+p.renders[renderIndex][1];stage.classList.toggle('render',mode==='render');$('mode-sheet').setAttribute('aria-pressed',mode==='sheet');$('mode-render').setAttribute('aria-pressed',mode==='render');$('view-caption').textContent=mode==='sheet'?p.caption:p.renders[renderIndex][1]+' · 方案效果参考';$('render-switch').hidden=mode!=='render';$('render-switch').replaceChildren(...p.renders.map((r,i)=>{const b=document.createElement('button');b.textContent=r[1];b.className=i===renderIndex?'active':'';b.onclick=()=>{renderIndex=i;loadView();};return b;}));}
+function selectProject(id,scroll=false){if(!projects[id])return;current=id;renderIndex=0;const p=projects[id];$('project-title').textContent=p.title;$('info-heading').textContent=p.heading;$('project-description').textContent=p.description;$('scope-note').textContent=p.scope;$('project-facts').replaceChildren(...p.facts.flatMap(([k,v])=>{const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=k;dd.textContent=v;return [dt,dd];}));$('project-points').replaceChildren(...p.points.map(s=>{const el=document.createElement('p');el.textContent=s;return el;}));$('dxf-link').href=`assets/${id}/plan.dxf`;$('pdf-link').href=`assets/${id}/sheet.pdf`;document.querySelectorAll('[data-project]').forEach(b=>{b.classList.toggle('selected',b.dataset.project===id);b.setAttribute('aria-pressed',b.dataset.project===id);});loadView();if(scroll){history.replaceState(null,'',`#project-${id}`);$('explore').scrollIntoView({behavior:'smooth'});}}
+document.querySelectorAll('[data-project]').forEach(b=>b.onclick=()=>selectProject(b.dataset.project,true));
+$('mode-sheet').onclick=()=>{mode='sheet';loadView();};$('mode-render').onclick=()=>{mode='render';loadView();};
+$('zoom-in').onclick=()=>changeZoom(.25);$('zoom-out').onclick=()=>changeZoom(-.25);$('reset').onclick=reset;
+$('full').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await $('viewer').requestFullscreen();}catch{$('view-caption').textContent='当前浏览器不支持全屏，可放大图纸或打开PDF。';}};
+document.addEventListener('fullscreenchange',()=>{$('full').textContent=document.fullscreenElement?'退出':'全屏';reset();});
+stage.addEventListener('dblclick',reset);stage.addEventListener('keydown',e=>{if(['+','=','-','0'].includes(e.key)){e.preventDefault();if(e.key==='0')reset();else changeZoom(e.key==='-'?-.25:.25);}});
+stage.addEventListener('wheel',e=>{if(e.ctrlKey){e.preventDefault();changeZoom(e.deltaY<0?.2:-.2);}},{passive:false});
+stage.addEventListener('pointerdown',e=>{if(zoom<=1)return;drag={x:e.clientX-panX,y:e.clientY-panY};stage.setPointerCapture(e.pointerId);stage.classList.add('dragging');});
+stage.addEventListener('pointermove',e=>{if(!drag)return;panX=e.clientX-drag.x;panY=e.clientY-drag.y;transform();});
+['pointerup','pointercancel','lostpointercapture'].forEach(type=>stage.addEventListener(type,()=>{drag=null;stage.classList.remove('dragging');}));
+img.onerror=()=>{$('load-error').hidden=false;img.style.visibility='hidden';};
+selectProject(location.hash.startsWith('#project-')?location.hash.slice(9):'residence');

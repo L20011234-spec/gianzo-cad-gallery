@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="960" viewBox="0 0 280 192" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
+<rect width="280" height="192" fill="white"/>
+<g data-layer="WALL" id="plan-WALL" fill="none" stroke="#252e30" stroke-width="0.55">
+<line x1="32.0000" y1="157.0000" x2="32.0000" y2="123.0000" stroke="#252e30" stroke-width="0.55"/>
+<line x1="71.6000" y1="41.8000" x2="212.4000" y2="41.8000" stroke="#252e30" stroke-width="0.55"/>
+<line x1="212.4000" y1="41.8000" x2="212.4000" y2="49.8000" stroke="#252e30" stroke-width="0.55"/>
+<line x1="212.4000" y1="49.8000" x2="220.8000" y2="49.8000" stroke="#252e30" stroke-width="0.55"/>
+<line x1="220.8000" y1="49.8000" x2="220.8000" y2="85.0000" stroke="#252e30" stroke-width="0.55"/>
+<line x1="68.8000" y1="157.0000" x2="220.8000" y2="157.0000" stroke="#252e30" stroke-width="0.55"/>
+<line x1="71.6000" y1="123.0000" x2="71.6000" y2="41.8000" stroke="#252e30" stroke-width="0.55"/>
+<line x1="32.0000" y1="123.0000" x2="32.0000" y2="41.8000" stroke="#252e30" stroke-width="0.55" stroke-dasharray="1.8 1.2"/>
+<line x1="32.0000" y1="41.8000" x2="71.6000" y2="41.8000" stroke="#252e30" stroke-width="0.55" stroke-dasharray="1.8 1.2"/>
+</g>
+<g data-layer="DOOR" id="plan-DOOR" fill="none" stroke="#8b7353" stroke-width="0.25">
+<line x1="32.0000" y1="123.0000" x2="71.6000" y2="123.0000" stroke="#8b7353" stroke-width="0.25" stroke-dasharray="1.8 1.2"/>
+<line x1="32.0000" y1="157.0000" x2="68.8000" y2="157.0000" stroke="#8b7353" stroke-width="0.25" stroke-dasharray="1.8 1.2"/>
+<line x1="208.0000" y1="132.2000" x2="174.0000" y2="137.5503" stroke="#8b7353" stroke-width="0.25" stroke-dasharray="1.8 1.2"/>
+<line x1="174.0000" y1="137.5503" x2="177.6716" y2="135.1503" stroke="#8b7353" stroke-width="0.25"/>
+<line x1="174.0000" y1="137.5503" x2="178.2312" y2="138.7066" stroke="#8b7353" stroke-width="0.25"/>
+</g>
+<g data-layer="WINDOW" id="plan-WINDOW" fill="none" stroke="#507a85" stroke-width="0.25">
+<line x1="220.3200" y1="157.0000" x2="220.3200" y2="85.0000" stroke="#507a85" stroke-width="0.25"/>
+<line x1="220.8000" y1="157.0000" x2="220.8000" y2="85.0000" stroke="#507a85" stroke-width="0.25"/>
+<polyline points="220.8000,157.0000 230.8000,141.8000 230.8000,99.4000 220.8000,85.0000" stroke-dasharray="1.8 1.2"/>
+</g>
+<g data-layer="FURNITURE" id="plan-FURNITURE" fill="none" stroke="#4b5555" stroke-width="0.23">
+<polygon points="113.6000,125.8000 175.2000,125.8000 175.2000,44.2800 113.6000,44.2800"/>
+<polygon points="114.4000,125.0000 174.4000,125.0000 174.4000,45.0000 114.4000,45.0000"/>
+<polygon points="96.4000,44.0400 192.4000,44.0400 192.4000,43.3200 96.4000,43.3200"/>
+<polygon points="118.2000,61.8000 141.2000,61.8000 141.2000,49.8000 118.2000,49.8000"/>
+<polygon points="147.6000,61.8000 170.6000,61.8000 170.6000,49.8000 147.6000,49.8000"/>
+<line x1="115.2000" y1="65.4000" x2="173.6000" y2="65.4000" stroke="#4b5555" stroke-width="0.23"/>
+<polygon points="97.7600,56.7600 111.5200,56.7600 111.5200,44.0400 97.7600,44.0400"/>
+<polygon points="177.2800,56.7600 191.0400,56.7600 191.0400,44.0400 177.2800,44.0400"/>
+<polygon points="71.8000,113.0000 82.8000,113.0000 82.8000,87.0000 71.8000,87.0000"/>
+<line x1="73.4000" y1="110.6000" x2="81.2000" y2="110.6000" stroke="#4b5555" stroke-width="0.23"/>
+<line x1="73.4000" y1="106.2000" x2="81.2000" y2="106.2000" stroke="#4b5555" stroke-width="0.23"/>
+<line x1="73.4000" y1="101.8000" x2="81.2000" y2="101.8000" stroke="#4b5555" stroke-width="0.23"/>
+<line x1="73.4000" y1="97.4000" x2="81.2000" y2="97.4000" stroke="#4b5555" stroke-width="0.23"/>
+<line x1="73.4000" y1="93.0000" x2="81.2000" y2="93.0000" stroke="#4b5555" stroke-width="0.23"/>
+<polygon points="125.2000,157.0000 166.4000,157.0000 166.4000,154.8000 125.2000,154.8000"/>
+<polygon points="218.8800,72.9600 220.3200,72.9600 220.3200,60.2400 218.8800,60.2400"/>
+<line x1="98.8800" y1="155.3600" x2="98.8800" y2="154.1600" stroke="#4b5555" stroke-width="0.23"/>
+<line x1="107.0000" y1="155.3600" x2="107.0000" y2="154.1600" stroke="#4b5555" stroke-width="0.23"/>
+<line x1="115.1200" y1="155.3600" x2="115.1200" y2="154.1600" stroke="#4b5555" stroke-width="0.23"/>
+<polygon points="190.0000,156.6800 214.8000,156.6800 214.8000,141.8800 190.0000,141.8800"/>
+<polygon points="191.4000,156.4000 213.9600,156.4000 213.9600,155.6800 191.4000,155.6800" stroke-dasharray="1.8 1.2"/>
+<polygon points="213.2400,156.2000 214.1200,156.2000 214.1200,142.5600 213.2400,142.5600" stroke-dasharray="1.8 1.2"/>
+<line x1="193.1600" y1="142.7200" x2="212.5600" y2="142.7200" stroke="#4b5555" stroke-width="0.23" stroke-dasharray="1.8 1.2"/>
+<ellipse cx="208.0000" cy="132.2000" rx="5.8000" ry="8.2000" transform="rotate(171.0572 208.0000 132.2000)"/>
+<ellipse cx="202.4000" cy="149.2800" rx="5.8000" ry="8.2000" transform="rotate(-90.0000 202.4000 149.2800)" stroke-dasharray="1.8 1.2"/>
+</g>
+<g data-layer="DIM" id="plan-DIM" fill="none" stroke="#64817f" stroke-width="0.16">
+<line x1="214.0000" y1="156.6800" x2="214.0000" y2="163.0000" stroke="#64817f" stroke-width="0.16"/>
+<line x1="32.0000" y1="157.0000" x2="32.0000" y2="177.8000" stroke="#64817f" stroke-width="0.13"/>
+<line x1="220.8000" y1="157.0000" x2="220.8000" y2="177.8000" stroke="#64817f" stroke-width="0.13"/>
+<line x1="32.0000" y1="177.8000" x2="220.8000" y2="177.8000" stroke="#64817f" stroke-width="0.13"/>
+<line x1="30.8000" y1="179.0000" x2="33.2000" y2="176.6000" stroke="#64817f" stroke-width="0.2"/>
+<line x1="219.6000" y1="179.0000" x2="222.0000" y2="176.6000" stroke="#64817f" stroke-width="0.2"/>
+<text x="126.4000" y="175.8800" font-size="2.4000" text-anchor="middle" dominant-baseline="central" fill="#64817f" stroke="none" transform="rotate(0 126.4000 175.8800)">4720  草图总宽</text>
+<line x1="32.0000" y1="157.0000" x2="32.0000" y2="166.4000" stroke="#64817f" stroke-width="0.13"/>
+<line x1="68.8000" y1="157.0000" x2="68.8000" y2="166.4000" stroke="#64817f" stroke-width="0.13"/>
+<line x1="32.0000" y1="166.4000" x2="68.8000" y2="166.4000" stroke="#64817f" stroke-width="0.13"/>
+<line x1="30.8000" y1="167.6000" x2="33.2000" y2="165.2000" stroke="#64817f" stroke-width="0.2"/>
+<line x1="67.6000" y1="167.6000" x2="70.0000" y2="165.2000" stroke="#64817f" stroke-width="0.2"/>
+<text x="50.4000" y="164.4800" font-size="2.4000" text-anchor="middle" dominant-baseline="central" fill="#64817f" stroke="none" transform="rotate(0 50.4000 164.4800)">920  门洞</text>
+<line x1="32.0000" y1="157.0000" x2="14.0000" y2="157.0000" stroke="#64817f" stroke-width="0.13"/>
+<line x1="32.0000" y1="41.8000" x2="14.0000" y2="41.8000" stroke="#64817f" stroke-width="0.13"/>
+<line x1="14.0000" y1="157.0000" x2="14.0000" y2="41.8000" stroke="#64817f" stroke-width="0.13"/>
+<line x1="12.8000" y1="158.2000" x2="15.2000" y2="155.8000" stroke="#64817f" stroke-width="0.2"/>
+<line x1="12.8000" y1="43.0000" x2="15.2000" y2="40.6000" stroke="#64817f" stroke-width="0.2"/>
+<text x="12.0800" y="99.4000" font-size="2.4000" text-anchor="middle" dominant-baseline="central" fill="#64817f" stroke="none" transform="rotate(-90 12.0800 99.4000)">2880  闭合</text>
+<line x1="32.0000" y1="157.0000" x2="22.8000" y2="157.0000" stroke="#64817f" stroke-width="0.13"/>
+<line x1="32.0000" y1="123.0000" x2="22.8000" y2="123.0000" stroke="#64817f" stroke-width="0.13"/>
+<line x1="22.8000" y1="157.0000" x2="22.8000" y2="123.0000" stroke="#64817f" stroke-width="0.13"/>
+<line x1="21.6000" y1="158.2000" x2="24.0000" y2="155.8000" stroke="#64817f" stroke-width="0.2"/>
+<line x1="21.6000" y1="124.2000" x2="24.0000" y2="121.8000" stroke="#64817f" stroke-width="0.2"/>
+<text x="20.8800" y="140.0000" font-size="2.4000" text-anchor="middle" dominant-baseline="central" fill="#64817f" stroke="none" transform="rotate(-90 20.8800 140.0000)">850</text>
+<line x1="32.0000" y1="123.0000" x2="22.8000" y2="123.0000" stroke="#64817f" stroke-width="0.13"/>
+<line x1="32.0000" y1="41.8000" x2="22.8000" y2="41.8000" stroke="#64817f" stroke-width="0.13"/>
+<line x1="22.8000" y1="123.0000" x2="22.8000" y2="41.8000" stroke="#64817f" stroke-width="0.13"/>
+<line x1="21.6000" y1="124.2000" x2="24.0000" y2="121.8000" stroke="#64817f" stroke-width="0.2"/>
+<line x1="21.6000" y1="43.0000" x2="24.0000" y2="40.6000" stroke="#64817f" stroke-width="0.2"/>
+<text x="20.8800" y="82.4000" font-size="2.4000" text-anchor="middle" dominant-baseline="central" fill="#64817f" stroke="none" transform="rotate(-90 20.8800 82.4000)">2030*</text>
+<line x1="71.6000" y1="41.8000" x2="71.6000" y2="27.0000" stroke="#64817f" stroke-width="0.13"/>
+<line x1="212.4000" y1="41.8000" x2="212.4000" y2="27.0000" stroke="#64817f" stroke-width="0.13"/>
+<line x1="71.6000" y1="27.0000" x2="212.4000" y2="27.0000" stroke="#64817f" stroke-width="0.13"/>
+<line x1="70.4000" y1="28.2000" x2="72.8000" y2="25.8000" stroke="#64817f" stroke-width="0.2"/>
+<line x1="211.2000" y1="28.2000" x2="213.6000" y2="25.8000" stroke="#64817f" stroke-width="0.2"/>
+<text x="142.0000" y="25.0800" font-size="2.4000" text-anchor="middle" dominant-baseline="central" fill="#64817f" stroke="none" transform="rotate(0 142.0000 25.0800)">3520  床头墙</text>
+<line x1="96.4000" y1="44.0400" x2="96.4000" y2="36.8400" stroke="#64817f" stroke-width="0.13"/>
+<line x1="192.4000" y1="44.0400" x2="192.4000" y2="36.8400" stroke="#64817f" stroke-width="0.13"/>
+<line x1="96.4000" y1="36.8400" x2="192.4000" y2="36.8400" stroke="#64817f" stroke-width="0.13"/>
+<line x1="95.2000" y1="38.0400" x2="97.6000" y2="35.6400" stroke="#64817f" stroke-width="0.2"/>
+<line x1="191.2000" y1="38.0400" x2="193.6000" y2="35.6400" stroke="#64817f" stroke-width="0.2"/>
+<text x="144.4000" y="34.9200" font-size="2.4000" text-anchor="middle" dominant-baseline="central" fill="#64817f" stroke="none" transform="rotate(0 144.4000 34.9200)">2400  床靠</text>
+<line x1="82.8000" y1="99.0000" x2="82.8000" y2="107.8000" stroke="#64817f" stroke-width="0.13"/>
+<line x1="113.6000" y1="99.0000" x2="113.6000" y2="107.8000" stroke="#64817f" stroke-width="0.13"/>
+<line x1="82.8000" y1="107.8000" x2="113.6000" y2="107.8000" stroke="#64817f" stroke-width="0.13"/>
+<line x1="81.6000" y1="109.0000" x2="84.0000" y2="106.6000" stroke="#64817f" stroke-width="0.2"/>
+<line x1="112.4000" y1="109.0000" x2="114.8000" y2="106.6000" stroke="#64817f" stroke-width="0.2"/>
+<text x="98.2000" y="105.8800" font-size="2.4000" text-anchor="middle" dominant-baseline="central" fill="#64817f" stroke="none" transform="rotate(0 98.2000 105.8800)">770</text>
+<line x1="175.2000" y1="81.0000" x2="175.2000" y2="75.0000" stroke="#64817f" stroke-width="0.13"/>
+<line x1="220.8000" y1="81.0000" x2="220.8000" y2="75.0000" stroke="#64817f" stroke-width="0.13"/>
+<line x1="175.2000" y1="75.0000" x2="220.8000" y2="75.0000" stroke="#64817f" stroke-width="0.13"/>
+<line x1="174.0000" y1="76.2000" x2="176.4000" y2="73.8000" stroke="#64817f" stroke-width="0.2"/>
+<line x1="219.6000" y1="76.2000" x2="222.0000" y2="73.8000" stroke="#64817f" stroke-width="0.2"/>
+<text x="198.0000" y="73.0800" font-size="2.4000" text-anchor="middle" dominant-baseline="central" fill="#64817f" stroke="none" transform="rotate(0 198.0000 73.0800)">1140</text>
+<line x1="154.4000" y1="157.0000" x2="170.4000" y2="157.0000" stroke="#64817f" stroke-width="0.13"/>
+<line x1="154.4000" y1="125.8000" x2="170.4000" y2="125.8000" stroke="#64817f" stroke-width="0.13"/>
+<line x1="170.4000" y1="157.0000" x2="170.4000" y2="125.8000" stroke="#64817f" stroke-width="0.13"/>
+<line x1="169.2000" y1="158.2000" x2="171.6000" y2="155.8000" stroke="#64817f" stroke-width="0.2"/>
+<line x1="169.2000" y1="127.0000" x2="171.6000" y2="124.6000" stroke="#64817f" stroke-width="0.2"/>
+<text x="168.4800" y="141.4000" font-size="2.4000" text-anchor="middle" dominant-baseline="central" fill="#64817f" stroke="none" transform="rotate(-90 168.4800 141.4000)">780</text>
+</g>
+<g data-layer="TEXT" id="plan-TEXT" fill="none" stroke="#303e40" stroke-width="0.18">
+<text x="51.2000" y="77.0000" font-size="3.2000" text-anchor="middle" dominant-baseline="central" fill="#303e40" stroke="none" transform="rotate(0 51.2000 77.0000)">卫生间</text>
+<text x="51.2000" y="83.4000" font-size="2.2000" text-anchor="middle" dominant-baseline="central" fill="#303e40" stroke="none" transform="rotate(0 51.2000 83.4000)">保留原布局</text>
+<text x="51.2000" y="89.8000" font-size="1.8000" text-anchor="middle" dominant-baseline="central" fill="#303e40" stroke="none" transform="rotate(0 51.2000 89.8000)">边界及门位待复尺</text>
+<text x="50.4000" y="139.4000" font-size="3.0000" text-anchor="middle" dominant-baseline="central" fill="#303e40" stroke="none" transform="rotate(0 50.4000 139.4000)">入户</text>
+<text x="52.8000" y="119.4000" font-size="1.8800" text-anchor="middle" dominant-baseline="central" fill="#303e40" stroke="none" transform="rotate(0 52.8000 119.4000)">卫浴门位示意</text>
+<text x="228.4000" y="121.0000" font-size="2.3200" text-anchor="middle" dominant-baseline="central" fill="#303e40" stroke="none" transform="rotate(-90 228.4000 121.0000)">窗宽 1800</text>
+<text x="77.2000" y="100.6000" font-size="2.2000" text-anchor="middle" dominant-baseline="central" fill="#303e40" stroke="none" transform="rotate(-90 77.2000 100.6000)">行李台</text>
+<text x="146.0000" y="149.8000" font-size="2.2000" text-anchor="middle" dominant-baseline="central" fill="#303e40" stroke="none" transform="rotate(0 146.0000 149.8000)">壁挂电视</text>
+<text x="107.0000" y="150.4000" font-size="1.8400" text-anchor="middle" dominant-baseline="central" fill="#303e40" stroke="none" transform="rotate(0 107.0000 150.4000)">挂衣钩</text>
+<text x="144.4000" y="87.4000" font-size="4.2000" text-anchor="middle" dominant-baseline="central" fill="#303e40" stroke="none" transform="rotate(0 144.4000 87.4000)">大床</text>
+<text x="144.4000" y="94.2000" font-size="2.2000" text-anchor="middle" dominant-baseline="central" fill="#303e40" stroke="none" transform="rotate(0 144.4000 94.2000)">床垫 1500 × 2000</text>
+<text x="202.4000" y="149.8000" font-size="1.9200" text-anchor="middle" dominant-baseline="central" fill="#303e40" stroke="none" transform="rotate(0 202.4000 149.8000)">茶桌</text>
+<text x="210.4000" y="117.2000" font-size="2.0000" text-anchor="middle" dominant-baseline="central" fill="#303e40" stroke="none" transform="rotate(0 210.4000 117.2000)">椭圆凳</text>
+<text x="178.0000" y="131.0000" font-size="2.1200" text-anchor="middle" dominant-baseline="central" fill="#303e40" stroke="none" transform="rotate(0 178.0000 131.0000)">面向入口</text>
+<text x="207.6000" y="166.4000" font-size="1.9200" text-anchor="middle" dominant-baseline="central" fill="#303e40" stroke="none" transform="rotate(0 207.6000 166.4000)">靠电视墙布置</text>
+</g>
+<text x="11" y="186" font-size="3" fill="#445356" font-weight="400">草图尺寸 · 现场待复尺    |    最新茶吧朝向已校正</text>
+</svg>
